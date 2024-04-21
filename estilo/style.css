@@ -95,3 +95,11 @@ li.lista a:hover {
     text-decoration: underline;
     color: blue;
 }
+
+@media (max-width: 600px) {
+    
+    div {
+        margin: 0px 50px;
+    }
+    
+}
