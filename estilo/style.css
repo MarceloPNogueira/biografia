@@ -31,6 +31,9 @@ header img#foto {
     border: 1px rgba(0, 0, 0, 0.705) solid;
 }
 
+div {
+    margin: 0px 10px;
+}
 main {
     background-color: white;
     max-width: 800px;
