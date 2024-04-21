@@ -96,10 +96,10 @@ li.lista a:hover {
     color: blue;
 }
 
-@media (min-width: 200px) (max-width: 600px){
+@media (min-width: 300px), (max-width: 600px){
     
     div {
-        margin: 0px 50px;
+        margin: 0px 20px;
     }
     
 }
