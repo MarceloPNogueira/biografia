@@ -96,7 +96,7 @@ li.lista a:hover {
     color: blue;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 200px) {
     
     div {
         margin: 0px 50px;
