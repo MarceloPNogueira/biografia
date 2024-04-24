@@ -14,17 +14,38 @@ main {
     align-items: center;
 }
 
-nav, li {
+#lado-esquerdo {
+    width: 50vw;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+#lado-esquerdo {
+  color: yellow;
+}
+
+#lado-direito {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartao {
+  padding: 6em;
+  box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.363);
+  border-radius: 15px;
 }
 
 img {
-  display: inline-block;
+  border-radius: 50%;
+  width: 50px;
 }
 
-a {
-  text-align: center;
-}
-img {
-    width: 50px;
+.links {
+  padding: 2em;
 }
