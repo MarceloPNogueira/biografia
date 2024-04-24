@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(24, 23, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, li {
+    display: flex;
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  text-align: center;
+}
+img {
+    width: 50px;
+}
