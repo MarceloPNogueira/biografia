@@ -88,6 +88,7 @@ ul {
     }
     #cartao {
         width: 433px ;
+        margin-bottom: 10px;
     }
     #lado-direito {
         width: 50vw;
