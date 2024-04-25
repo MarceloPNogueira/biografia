@@ -92,6 +92,9 @@ ul {
         width: 100%;
         height: auto;
     }
+    #lado-esquerdo h1 {
+        font-size: 2.3em;
+    }
     #lado-direito {
         width: 100%;
         height: auto;
@@ -100,6 +103,7 @@ ul {
     #cartao {
         margin: 0px 15px 0px 15px;
     }
+
 }
 
 @media (max-width: 518px) {
