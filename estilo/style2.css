@@ -44,7 +44,7 @@ main {
 #cartao {
     width: 450px;
     padding: 6em;
-    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.363);
+    box-shadow: 0px 5px 80px rgb(255, 255, 255);
     border-radius: 15px;
     box-sizing: border-box;
 }
@@ -74,4 +74,34 @@ ul {
 .icons {
     width: 50px; 
     margin-right: 10px;
+}
+
+@media (max-width: 950px) {
+    #cartao {
+        margin: 0px 10px 5px 10px;
+    }
+}
+
+@media (max-width: 860px) {
+    main {
+        flex-direction: column;
+    }
+    #cartao {
+        width: 433px ;
+    }
+    #lado-direito {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 518px) {
+    #name {
+        width: 260px;
+    }
+}
+
+@media (max-width: 500px) {
+    #cartao {
+        width: 550px;
+    }
 }
