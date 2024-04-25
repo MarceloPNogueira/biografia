@@ -70,6 +70,7 @@ ul {
     width: 150px;
     background-image: linear-gradient(to right, rgb(65, 65, 65), rgb(56, 56, 56), rgb(44, 44, 44), rgb(36, 35, 35));
     border-radius: 5px;
+    transition: ease-in-out;
 }
 .icons {
     width: 50px; 
@@ -85,6 +86,9 @@ ul {
 @media (max-width: 860px) {
     main {
         flex-direction: column;
+    }
+    .links:hover {
+        max-width: 160px;
     }
     #cartao {
         width: 433px ;
