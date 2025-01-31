@@ -29,11 +29,8 @@ header img#foto {
     height: 8em;
     margin-bottom: 10px;
     border: 1px rgba(0, 0, 0, 0.705) solid;
-}
+} 
 
-div {
-    margin: 0px 10px;
-}
 main {
     background-color: white;
     max-width: 800px;
@@ -64,7 +61,7 @@ footer {
     align-items: center;
     max-width: 800px;
     padding: 20px;
-    margin: 20px auto 36px;
+    margin: 20px auto 0px;
     border-radius: 5px;
     background-color: white;
 }
@@ -99,7 +96,7 @@ li.lista a:hover {
 @media (min-width: 300px), (max-width: 600px){
     
     div {
-        margin: 0px 10px;
+        margin: 50px 20px;
     }
     
 }
