@@ -112,6 +112,12 @@ ul {
 
 }
 
+@media (max-width: 600px) {
+    .links:hover {
+        width: 250px;
+    }
+}
+
 @media (max-width: 518px) {
     #cartao {
         width: 200px;
