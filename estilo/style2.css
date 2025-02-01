@@ -134,13 +134,13 @@ ul {
 
 @media (max-width: 420px ) {
     .links:hover {
-        width: 100px;
+        width: 178px;
     }
 }
 
 @media (max-width: 370px ) {
     .links:hover {
-        width: 100px;
+        width: 127px;
     }
 }
 
