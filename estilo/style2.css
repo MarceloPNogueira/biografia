@@ -112,9 +112,9 @@ ul {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 685px) {
     .links:hover {
-        width: 170px;
+        width: 419px;
     }
 }
 
@@ -129,5 +129,11 @@ ul {
 
     #name {
         width: 298px;
+    }
+}
+
+@media (max-width: 420px ) {
+    .links:hover {
+        width: 100px;
     }
 }
