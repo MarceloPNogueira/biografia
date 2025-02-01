@@ -110,6 +110,11 @@ ul {
     #cartao {
         width: 200px;
     }
+
+    .links:hover {
+        width: 182px;
+    }
+
     #name {
         width: 298px;
     }
