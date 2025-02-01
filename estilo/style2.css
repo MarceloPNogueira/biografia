@@ -137,3 +137,10 @@ ul {
         width: 100px;
     }
 }
+
+@media (max-width: 320px ) {
+    .links:hover {
+        width: 100px;
+    }
+}
+
