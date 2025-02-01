@@ -114,7 +114,7 @@ ul {
 
 @media (max-width: 600px) {
     .links:hover {
-        width: 250px;
+        width: 170px;
     }
 }
 
