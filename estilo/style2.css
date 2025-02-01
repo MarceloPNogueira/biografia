@@ -82,6 +82,9 @@ ul {
     #cartao {
         margin: 0px 20px 0px 10px;
     }
+    .links:hover {
+        width: 192px;
+    }
 }
 
 @media (max-width: 860px) {
@@ -102,6 +105,9 @@ ul {
     }
     #cartao {
         margin: 0px 15px;
+    }
+    .links:hover {
+        width: 429px;
     }
 
 }
