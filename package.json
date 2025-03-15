@@ -1,0 +1,23 @@
+{
+  "name": "biografia",
+  "version": "1.0.0",
+  "description": "minha biografia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloPNogueira/biografia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloPNogueira/biografia/issues"
+  },
+  "homepage": "https://github.com/MarceloPNogueira/biografia#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}

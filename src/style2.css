@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #18173b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lado-esquerdo > h1 {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+#lado-esquerdo {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+#lado-esquerdo {
+    color: yellow;
+}
+
+#lado-direito {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#cartao {
+    width: 450px;
+    margin-right: 15px;
+    padding: 6em;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.342);
+    border-radius: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px ;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.links:hover{
+    width: 432px;
+    background-image: linear-gradient(to right, rgb(207, 206, 206), rgb(197, 197, 197), rgb(182, 182, 182), rgb(167, 167, 167));
+    border-radius: 5px;
+    transition: ease-in-out;
+}
+
+.icons {
+    width: 50px; 
+    margin-right: 10px;
+}
+@media (max-width: 950px) {
+    #cartao {
+        margin: 0px 20px 0px 10px;
+    }
+    .links:hover {
+        width: 192px;
+    }
+}
+
+@media (max-width: 860px) {
+    main {
+        flex-direction: column;
+    }
+    #lado-esquerdo {
+        width: 100%;
+        height: auto;
+    }
+    #lado-esquerdo h1 {
+        font-size: 2.3em;
+    }
+    #lado-direito {
+        width: 100%;
+        height: auto;
+        margin-top: 110px;
+    }
+    #cartao {
+        margin: 0px 15px;
+    }
+    .links:hover {
+        width: 429px;
+    }
+
+}
+
+@media (max-width: 685px) {
+    .links:hover {
+        width: 419px;
+    }
+}
+
+@media (max-width: 518px) {
+    #cartao {
+        width: 200px;
+    }
+
+    .links:hover {
+        width: 182px;
+    }
+
+    #name {
+        width: 298px;
+    }
+}
+
+@media (max-width: 420px ) {
+    .links:hover {
+        width: 178px;
+    }
+}
+
+@media (max-width: 370px ) {
+    .links:hover {
+        width: 127px;
+    }
+}
+

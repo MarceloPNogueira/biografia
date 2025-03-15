@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import "tailwindcss";
+
+@theme {
+    --color-p1: #18173b;
+    --shadow-p: 0px 5px 100px rgba(0, 0, 0, 0.342);
+}
+
